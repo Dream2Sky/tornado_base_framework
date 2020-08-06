@@ -1,11 +1,13 @@
 [[source]]
 name = "pypi"
-url = "https://pypi.org/simple"
+url = "https://pypi.douban.com/simple"
 verify_ssl = true
 
 [dev-packages]
 
 [packages]
+tornado = "*"
+httprequest = "*"
 
 [requires]
 python_version = "3.7"
