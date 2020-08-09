@@ -3,11 +3,14 @@ import tornado.web
 import tornado.ioloop
 from config_util import ConfigUtil
 
+from core.handler import BaseHandler
+
 
 class Application(tornado.web.Application):
 
     def __init__(self):
-        super(Application, self).__init__([], debug=True)
+        print(type(BaseHandler))
+        super(Application, self).__init__(handlers=[(r"/api/.*", BaseHandler)], debug=False)
         
 
 if __name__ == '__main__':
