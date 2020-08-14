@@ -12,3 +12,4 @@ tornado_base_framework项目
     消息中间件接入(celery&消息队列)
     用户认证系统
     redis缓存接入
+    redis缓存接入
