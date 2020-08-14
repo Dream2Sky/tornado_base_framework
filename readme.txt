@@ -15,3 +15,4 @@ tornado_base_framework项目
 
     hehehe
     111111
+    redis缓存接入
